@@ -1,0 +1,632 @@
+
+<!DOCTYPE html>
+<html lang="en" style="scroll-padding-top: 4rem">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Robert Zhang</title>
+    <script src="https://kit.fontawesome.com/13ea168306.js" crossorigin="anonymous"></script>
+    <script src="https://code.iconify.design/2/2.2.1/iconify.min.js"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+    <link rel="apple-touch-icon" sizes="180x180" href="image/icon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="image/icon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="image/icon/favicon-16x16.png">
+    <link rel="manifest" href="image/icon/site.webmanifest">
+    <meta name="msapplication-TileColor" content="#da532c">
+    <meta name="theme-color" content="#ffffff">
+</head>
+
+<body class="bg-white">
+    <nav class="navbar navbar-light fixed-top bg-light shadow-sm">
+        <div class="container-lg">
+            <a class="navbar-brand text-dark fw-bold fs-4" href="#home">Robert Zhang</a>
+            <div class="dropdown">
+                <button class="btn btn-light border" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    <i class="navbar-toggler-icon "></i>
+                </button>
+                <ul class="dropdown-menu dropdown-menu-end">
+                    <li><a class="dropdown-item" href="#education">Education</a></li>
+                    <li><a class="dropdown-item" href="#skills">Skills</a></li>
+                    <li><a class="dropdown-item" href="#projects">Projects</a></li>
+                    <li><a class="dropdown-item" href="#experiences">Experiences</a></li>
+                    <li><a class="dropdown-item" href="#contact">Contact</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <section class="home pt-5" id="home">
+        <div class="container-lg">
+            <div class="row min-vh-100 align-items-center aligh-content-center">
+                <div class="col-md-6 mt-5 mt-md-0">
+                    <div class="home-img text-center">
+                        <img src="image/profile.png" class="rounded-circle mw-100" alt="profile img">
+                    </div>
+                </div>
+                <div class="col-md-6 mt-5 mt-md-0 order-md-first">
+                    <div class="home-text">
+                        <p class="text-muted mb-1">Hello I'm</p>
+                        <h1 class="fs-4">Robert Zhang</h1>
+                        <p class="mt-3 text-muted">I'm a senior at UCSD majoring in
+                            <b>Cognitive Science with specialization in Machine Learning and Neural Computation</b> and minoring in <b>Computer Science</b>.
+                        </p>
+                        <a href="https://www.linkedin.com/in/robertyiyunzhang/"
+                            class="fa-brands fa-linkedin-in fa-lg text-decoration-none text-dark mt-3 me-1"></a>
+                        <a href="https://github.com/robertzhang0531"
+                            class="fa-brands fa-github fa-lg text-decoration-none text-dark mt-3 me-1"></a>
+                        <a href=""
+                            class="fa-solid fa-file-arrow-down fa-lg text-decoration-none text-dark mt-3"></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="education py-5 bg-light" id="education">
+        <div class="container-lg py-4">
+            <div class="row justify-content-center">
+                <div class="col-lg-8">
+                    <div class="section-title text-center">
+                        <h2 class="fw-bold mb-5">Education</h2>
+                    </div>
+                </div>
+            </div>
+            <div class="row text-center">
+                <div class="col-md-4 mb-4">
+                    <div class="education-item shadow-sm p-4 rounded bg-white">
+                        <div class="icon my-3 text-dark fs-2">
+                            <i class="fa-solid fa-graduation-cap"></i>
+                        </div>
+                        <h3 class="fs-5 py-2">High School</h3>
+                        <div class="mb-2">
+                            <a class="link-dark text-decoration-none text-dark" href="https://www.bnds.cn/">SUIS Wanyuan</a>
+                        </div>
+                        <div class="text-muted">
+                            Program: <a class="text-decoration-none link-secondary"
+                                href="https://wasatchacademy.org/dual-diploma-programs">AP</a>
+                        </div>
+                        <div class="text-muted">
+                            Sep 2016 - May 2020
+                        </div>
+                        <button type="button" class="btn btn-dark mt-2" data-bs-toggle="modal"
+                            data-bs-target="#highSchoolModal">
+                            Related Courseworks
+                        </button>
+                        <!-- Modal -->
+                        <div class="modal fade" id="highSchoolModal" tabindex="-1" aria-labelledby="highSchoolModal"
+                            aria-hidden="true">
+                            <div class="modal-dialog">
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                        <h5 class="modal-title" id="highSchoolModalLabel">High School Courseworks</h5>
+                                    </div>
+                                    <div class="modal-body">
+                                        <ul class="text-start">
+                                            <li>AP Computer Science</li>
+                                            <li>AP Calculus BC</li>
+                                            <li>AP Statistics</li>
+                                        </ul>
+                                    </div>
+                                    <div class="modal-footer">
+                                        <button type="button" class="btn btn-secondary"
+                                            data-bs-dismiss="modal">Close</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 mb-4">
+                    <div class="education-item shadow-sm p-4 rounded bg-white">
+                        <div class="icon my-3 text-dark fs-2">
+                            <i class="fa-solid fa-school"></i>
+                        </div>
+                        <h3 class="fs-5 py-2">Undergraduate</h3>
+                        <div class="mb-2">
+                            <a class="link-dark text-decoration-none text-dark" href="https://cas.nyu.edu/">Univeristy of California, San Diego<br>
+                            </a>
+                        </div>
+                        <div class="text-muted">
+                            Major: <a class="text-decoration-none link-secondary"
+                                href="https://cogsci.ucsd.edu/">Cognitive Science</a> 
+                        </div>
+                        <div class="text-muted">
+                            Major GPA: 3.875
+                        </div>
+                        <div class="text-muted">
+                            Oct 2020 - Jun 2023
+                        </div>
+                        <button type="button" class="btn btn-dark mt-2" data-bs-toggle="modal"
+                            data-bs-target="#undergraduateModal">
+                            Related Courseworks
+                        </button>
+                        <!-- Modal -->
+                        <div class="modal fade" id="undergraduateModal" tabindex="-1"
+                            aria-labelledby="undergraduateModal" aria-hidden="true">
+                            <div class="modal-dialog">
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                        <h5 class="modal-title" id="undergraduateModalLabel">Undergraduate Courseworks
+                                        </h5>
+                                    </div>
+                                    <div class="modal-body">
+                                        <div class="row">
+                                            <div class="col-lg-2 fw-bold text-start">
+                                                CogSci:
+                                            </div>
+                                            <div class="col-lg-10">
+                                                <ul class="text-start">
+                                                    <li>COGS 108 Data Science in Practice</li>
+                                                    <li>COGS 118A Supervised Machine Learning Algorithms</li>
+                                                    <li>COGS 118B Introduction to Machine Learning II</li>
+                                                    <li>COGS 107B Systems Neuroscience</li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                        <div class="row">
+                                            <div class="col-lg-2 fw-bold text-start">
+                                                CS:
+                                            </div>
+                                            <div class="col-lg-10">
+                                                <ul class="text-start">
+                                                    <li>CSE 12 Basic Data Structures and Object-Oriented Design</li>
+                                                    <li>CSE 15L Software Tools and Techniques Laboratory</li>
+                                                    <li>CSE 20 Discrete Mathematics</li>
+                                                    <li>CSE 30 Computer Organization and Systems Programming</li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="modal-footer">
+                                        <button type="button" class="btn btn-secondary"
+                                            data-bs-dismiss="modal">Close</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 mb-4">
+                    <div class="education-item shadow-sm p-4 rounded bg-white">
+                        <div class="icon my-3 text-dark fs-2">
+                            <i class="fa-solid fa-building-columns"></i>
+                        </div>
+                        <h3 class="fs-5 py-2">Graduate</h3>
+                        <div class="mb-2">
+                            <a class="link-dark text-decoration-none text-dark" href="https://cims.nyu.edu/">TBD
+                            </a>
+                        </div>
+                        <div class="text-muted">
+                            Program: <a class="text-decoration-none link-secondary"
+                                href="https://cs.nyu.edu/home/master/prospective_mscs.html">TBD</a>
+                        </div>
+                        <div class="text-muted">
+                            TBD
+                        </div>
+                        <button type="button" class="btn btn-dark mt-2" data-bs-toggle="modal"
+                            data-bs-target="#graduateModal">
+                            Related Courseworks
+                        </button>
+                        <!-- Modal -->
+                        <div class="modal fade" id="graduateModal" tabindex="-1" aria-labelledby="graduateModal"
+                            aria-hidden="true">
+                            <div class="modal-dialog">
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                        <h5 class="modal-title" id="graduateModalLabel">Graduate Courseworks</h5>
+                                    </div>
+                                    <div class="modal-body">
+                                        <ul class="text-start">
+                                            <li>TBD</li>
+                                        </ul>
+                                    </div>
+                                    <div class="modal-footer">
+                                        <button type="button" class="btn btn-secondary"
+                                            data-bs-dismiss="modal">Close</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="skills py-5 bg-white" id="skills">
+        <div class="container-lg py-4">
+            <div class="row justify-content-center">
+                <div class="col-lg-8">
+                    <div class="section-title text-center">
+                        <h2 class="fw-bold mb-5">Skills & Technologies</h2>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-6 col-md-3">
+                    <div class="skills-item text-center">
+                        <i class="fa-brands fa-python fs-1 mb-2"></i>
+                        <h3 class="fs-5 my-0">Python</h3>
+                        <p class="mb-4 text-muted my-0">Advanced</p>
+                    </div>
+                </div>
+                <div class="col-6 col-md-3">
+                    <div class="skills-item text-center">
+                        <i class="fa-brands fa-java fs-1 6b-2"></i>
+                        <h3 class="fs-5 my-0">Java</h3>
+                        <p class="mb-4 text-muted my-0">Advanced</p>
+                    </div>
+                </div>
+              <div class="col-6 col-md-3">
+                    <div class="skills-item text-center">
+                        <span class="iconify fs-1 mb-2" data-icon="teenyicons:c-solid"></span>
+                        <h3 class="fs-5 my-0">C</h3>
+                        <p class="mb-4 text-muted my-0">Intermediate</p>
+                    </div>
+                </div>
+                <div class="col-6 col-md-3">
+                    <div class="skills-item text-center">
+                        <i class="fa-brands fa-square-js fs-1 mb-2"></i>
+                        <h3 class="fs-5 my-0">JavaScript</h3>
+                        <p class="mb-4 text-muted my-0">Intermediate</p>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-6 col-md-3">
+                    <div class="skills-item text-center">
+                        <span class="iconify fs-1 mb-2" data-icon="akar-icons:postgresql-fill"></span>
+                        <h3 class="fs-5 my-0">PostgreSQL</h3>
+                        <p class="mb-4 text-muted my-0">Beginner</p>
+                    </div>
+                </div>
+                <div class="col-6 col-md-3">
+                    <div class="skills-item text-center">
+                        <span class="iconify fs-1 mb-2" data-icon="simple-icons:mongodb"></span>
+                        <h3 class="fs-5 my-0">MongoDB</h3>
+                        <p class="mb-4 text-muted my-0">Intermediate</p>
+                    </div>
+                </div>
+                <div class="col-6 col-md-3">
+                    <div class="skills-item text-center">
+                        <span class="iconify fs-1 mb-2" data-icon="fa-brands:node"></span>
+                        <h3 class="fs-5 my-0">Node.js</h3>
+                        <p class="mb-4 text-muted my-0">Intermediate</p>
+                    </div>
+                </div>
+                <div class="col-6 col-md-3">
+                    <div class="skills-item text-center">
+                        <span class="iconify fs-4 mb-4" data-icon="logos:express"></span>
+                        <h3 class="fs-5 my-0">Express.js</h3>
+                        <p class="mb-4 text-muted my-0">Intermediate</p>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+
+                <div class="col-6 col-md-3">
+                    <div class="skills-item text-center">
+                        <span class="iconify fs-1 mb-2" data-icon="akar-icons:html-fill"></span>
+                        <h3 class="fs-5 my-0">HTML</h3>
+                        <p class="mb-4 text-muted my-0">Intermediate</p>
+                    </div>
+                </div>
+                <div class="col-6 col-md-3">
+                    <div class="skills-item text-center">
+                        <span class="iconify fs-1 mb-2" data-icon="akar-icons:css-fill"></span>
+                        <h3 class="fs-5 my-0">CSS</h3>
+                        <p class="mb-4 text-muted my-0">Beginner</p>
+                    </div>
+                </div>
+                <div class="col-6 col-md-3">
+                    <div class="skills-item text-center">
+                        <span class="iconify fs-1 mb-2" data-icon="akar-icons:react-fill"></span>
+                        <h3 class="fs-5 my-0">React</h3>
+                        <p class="mb-4 text-muted my-0">Beginner</p>
+                    </div>
+                </div>
+                <div class="col-6 col-md-3">
+                    <div class="skills-item text-center">
+                        <span class="iconify fs-1 mb-2" data-icon="akar-icons:bootstrap-fill"></span>
+                        <h3 class="fs-5 my-0">Bootstrap 5</h3>
+                        <p class="mb-4 text-muted my-0">Beginner</p>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-6 col-md-3">
+                    <div class="skills-item text-center">
+                        <span class="iconify fs-1 mb-2" data-icon="simple-icons:scikitlearn"></span>
+                        <h3 class="fs-5 my-0">Scikit-Learn</h3>
+                        <p class="mb-4 text-muted my-0">Intermediate</p>
+                    </div>
+                </div>
+                <div class="col-6 col-md-3">
+                    <div class="skills-item text-center">
+                        <span class="iconify fs-1 mb-2" data-icon="cib:pytorch"></span>
+                        <h3 class="fs-5 my-0">PyTorch</h3>
+                        <p class="mb-4 text-muted my-0">Intermediate</p>
+                    </div>
+                </div>
+                <div class="col-6 col-md-3">
+                    <div class="skills-item text-center">
+                        <span class="iconify fs-1 mb-2" data-icon="simple-icons:pandas"></span>
+                        <h3 class="fs-5 my-0">Pandas</h3>
+                        <p class="mb-4 text-muted my-0">Intermediate</p>
+                    </div>
+                </div>
+                <div class="col-6 col-md-3">
+                    <div class="skills-item text-center">
+                        <span class="iconify fs-1 mb-2" data-icon="file-icons:numpy"></span>
+                        <h3 class="fs-5 my-0">NumPy</h3>
+                        <p class="mb-4 text-muted my-0">Intermediate</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="projects bg-light py-5" id="projects">
+        <div class="container-lg py-4">
+            <div class="row justify-content-center">
+                <div class="col-lg-8">
+                    <div class="section-title text-center">
+                        <h2 class="fw-bold mb-5">Selected Projects</h2>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-6 col-lg-4">
+                    <div class="card mb-3">
+                        <img src="/image/project1.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Project 1</h5>
+                            <p class="card-text">Content to be added...</p>
+                            <a href="https://github.com/robertzhang0531" class="btn btn-dark">Go to the
+                                project</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4">
+                    <div class="card mb-3">
+                        <img src="/image/project2.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Project 2</h5>
+                            <p class="card-text">Content to be added...
+                            </p>
+                            <a href="https://github.com/robertzhang0531" class="btn btn-dark">Go to the
+                                project</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4">
+                    <div class="card mb-3">
+                        <img src="/image/project3.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Project 3</h5>
+                            <p class="card-text">Content to be added...
+                            </p>
+                            <a href="https://github.com/robertzhang0531" class="btn btn-dark">Go to the
+                                project</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-6 col-lg-4">
+                    <div class="card mb-3">
+                        <img src="/image/project4.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Project 4</h5>
+                            <p class="card-text">Content to be added...</p>
+                            <a href="https://github.com/robertzhang0531" class="btn btn-dark">Go to the
+                                project</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4">
+                    <div class="card mb-3">
+                        <img src="/image/project5.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Project 5</h5>
+                            <p class="card-text">Content to be added...</p>
+                            <a href="https://github.com/robertzhang0531"
+                                class="btn btn-dark">Go to the project</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4">
+                    <div class="card" aria-hidden="true">
+                        <svg class="bd-placeholder-img card-img-top" width="100%" height="180"
+                            xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder"
+                            preserveAspectRatio="xMidYMid slice" focusable="false">
+                            <title>Placeholder</title>
+                            <rect width="100%" height="100%" fill="#868e96"></rect>
+                        </svg>
+
+                        <div class="card-body">
+                            <h5 class="card-title">
+                                To be added...
+                            </h5>
+                            <p class="card-text placeholder-glow">
+                                <span class="placeholder col-7"></span>
+                                <span class="placeholder col-4"></span>
+                                <span class="placeholder col-4"></span>
+                                <span class="placeholder col-6"></span>
+                                <span class="placeholder col-8"></span>
+                            </p>
+                            <a href="#" tabindex="-1" class="btn btn-dark disabled placeholder col-6"></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="projects bg-white py-5" id="experiences">
+        <div class="container-lg py-4">
+            <div class="row justify-content-center">
+                <div class="col-lg-8">
+                    <div class="section-title text-center">
+                        <h2 class="fw-bold mb-5">Experiences</h2>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-4">
+                    <div id="list-example" class="list-group">
+                        <a class="list-group-item list-group-item-action list-group-item-dark" href="#list-item-1">
+                            Software Development Engineer Intern
+                        </a>
+                        <a class="list-group-item list-group-item-action list-group-item-dark" href="#list-item-2">
+                            Experience #2
+                        </a>
+                        <a class="list-group-item list-group-item-action list-group-item-dark" href="#list-item-3">
+                            Experience #3
+
+                        </a>
+                        <a class="list-group-item list-group-item-action list-group-item-dark" href="#list-item-4">
+                            Experience #4
+                        </a>
+                    </div>
+                </div>
+                <div class="col-8">
+                    <div style="overflow-y: scroll; height: 40vh;" data-bs-spy="scroll" data-bs-target="#list-example"
+                        data-bs-smooth-scroll="true" class="scrollspy-example" tabindex="0">
+                        <div class="mb-5" id="list-item-1">
+                            <div class="d-flex justify-content-between mb-1">
+                                <div class="fs-5"><span class="fw-bold">
+                                        Software Development Engineer Intern</span>, Altomni, United States</div>
+                                <div class="d-none d-xl-block">Jul 2022 - Sep 2022</div>
+                            </div>
+                            <div class="d-xl-none">Jul 2022 - Sep 2022</div>
+                            <ul>
+                                <li>
+                                    Participated in the customer journey design of Emaily.ai, an 1 billion+ scale business leads database & platform that helps clients to send emails precisely to targeted audiences, and analyze emails with feedback.
+                                </li>
+                                <li>
+                                    Implemented the Emaily.ai’s customer journey workflow automation, including multiple frontend features implementation, like time delayed triggered email submission, which allows the customers to send email after a preset period of time.
+                                </li>
+                                <li>
+                                    Implemented multiple graph node features in the frontend. Started from graph node design, graph encoding, serialization and deserialization of data, and webhook request payload, utilizing TypeScript.
+                                </li>
+                                <li>
+                                    Released front-end features to production. Designed testing plan for quality assurance purpose.
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="mb-5" id="list-item-2">
+                            <div class="d-flex justify-content-between mb-1">
+                                <div class="fs-5"><span class="fw-bold">
+                                        Experience # 2
+                                </div>
+                                <div class="d-none d-xl-block">TBD</div>
+                            </div>
+                            <div class="d-xl-none">TBD</div>
+                            <ul>
+                                <li>
+                                    To be added...
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="mb-5" id="list-item-3">
+                            <div class="d-flex justify-content-between mb-1">
+                                <div class="fs-5"><span class="fw-bold">
+                                        Experience # 3
+                                </div>
+                                <div class="d-none d-xl-block">TBD</div>
+                            </div>
+                            <div class="d-xl-none">TBD</div>
+                            <ul>
+                                <li>
+                                    To be added...
+                                </li>
+                            </ul>
+                        </div>
+                        <div id="list-item-4">
+                            <div class="d-flex justify-content-between mb-1">
+                                <div class="fs-5"><span class="fw-bold">
+                                        Experience # 4
+                                </div>
+                                <div class="d-none d-xl-block">TBD</div>
+                            </div>
+                            <div class="d-xl-none">TBD</div>
+                            <ul>
+                                <li>
+                                    To be added...
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="contact bg-light py-5" id="contact">
+        <div class="container-lg py-4">
+            <div class="row justify-content-center">
+                <div class="col-lg-8">
+                    <div class="section-title text-center">
+                        <h2 class="fw-bold mb-5">Contact Me</h2>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-5">
+                    <div class="contact-item d-flex mb-3">
+                        <div class="icon fs-4 text-dark">
+                            <i class="fa-solid fa-envelope fa-lg"></i>
+                        </div>
+                        <div class="text ms-3">
+                            <h3 class="fs-5">Email</h3>
+                            <p class="text-muted">yiz027@ucsd.edu</p>
+                        </div>
+                    </div>
+                    <div class="contact-item d-flex mb-3">
+                        <div class="icon fs-4 text-dark">
+                            <i class="fa-solid fa-phone fa-lg"></i>
+                        </div>
+                        <div class="text ms-3">
+                            <h3 class="fs-5">Phone</h3>
+                            <p class="text-muted">(+1) 858-766-1237</p>
+                        </div>
+                    </div>
+                    <div class="contact-item d-flex mb-3">
+                        <div class="icon fs-4 text-dark">
+                            <i class="fa-solid fa-location-dot fa-lg"></i>
+                        </div>
+                        <div class="text ms-3">
+                            <h3 class="fs-5">Address</h3>
+                            <p class="text-muted">8800 Lombard Pl, San Diego, CA, 92122</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-7">
+                    <iframe
+                        src="https://docs.google.com/forms/d/e/1FAIpQLSdyr-MUVc1q2WnEz7cpTwgjL5tTvpkoQUIz8K-Bpyq3EpKHyg/viewform?embedded=true"
+                        width="100%" height="100%" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
+
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer border-top py-4">
+        <div class="container-lg">
+            <div class="row">
+                <div class="col-lg-12">
+                    <p class="m-0 text-center text-muted">&copy; 2022 by Robert Zhang</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
